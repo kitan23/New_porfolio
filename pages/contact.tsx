@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import {
   Box,
   Button,
@@ -7,13 +7,22 @@ import {
   FormLabel,
   Heading,
   Input,
-  VStack
+  VStack,
+  useToast
 } from '@chakra-ui/react'
 import * as Yup from 'yup'
 import { Field, Form, Formik } from 'formik'
 
 const Contact: React.FC = () => {
   const EMAIL_REGEX = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i
+
+  const toast = useToast({
+    title: 'Redirecting to email...',
+    status: 'loading',
+    duration: 5000,
+    isClosable: true,
+    position: 'top'
+  })
 
   const formValidationSchema = Yup.object().shape({
     name: Yup.string()
@@ -32,7 +41,14 @@ const Contact: React.FC = () => {
 
   const handleSubmitForm = async (values, { resetForm }) => {
     try {
-      console.log('Success')
+      toast()
+      window.open(
+        `mailto: ${process.env.CONTACT_EMAIL}?subject=${encodeURIComponent(
+          values.subject
+        )}&body=${encodeURIComponent(values.name)} (${encodeURIComponent(
+          values.email
+        )}): ${encodeURIComponent(values.message)}`
+      )
       resetForm({})
     } catch (error) {
       console.log(error)

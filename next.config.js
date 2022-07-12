@@ -1,3 +1,5 @@
 module.exports = {
-  reactStrictMode: true
+  env: {
+    CONTACT_EMAIL: 'dkien3202@gmail.com'
+  }
 }
