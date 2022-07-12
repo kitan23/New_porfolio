@@ -12,13 +12,7 @@ import {
 import * as Yup from 'yup'
 import { Field, Form, Formik } from 'formik'
 
-function TextArea(props: { placeholder: string }) {
-  return null
-}
-
 const Contact: React.FC = () => {
-  const [email, setEmail] = useState<string>('')
-  const [password, setPassword] = useState<string>('')
   const EMAIL_REGEX = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i
 
   const formValidationSchema = Yup.object().shape({
@@ -36,10 +30,7 @@ const Contact: React.FC = () => {
       .required('Please enter your message')
   })
 
-  const handleSubmitForm = async (
-    values,
-    { setSubmitting, setErrors, setStatus, resetForm }
-  ) => {
+  const handleSubmitForm = async (values, { resetForm }) => {
     try {
       console.log('Success')
       resetForm({})
@@ -50,11 +41,10 @@ const Contact: React.FC = () => {
 
   return (
     <Box>
-      {/*
       <Heading as="h3" fontSize={20} mb={5}>
         Get in touch with me
       </Heading>
-*/}
+
       <Formik
         initialValues={{ name: '', email: '', subject: '', message: '' }}
         onSubmit={handleSubmitForm}

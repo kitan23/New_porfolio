@@ -28,8 +28,7 @@ const Page: React.FC = () => {
           mb={6}
           align="center"
         >
-          {' '}
-          Hello, I'm a full-stack developer based in New York
+          Hello, I &apos; m a full-stack developer based in New York
         </Box>
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
@@ -63,11 +62,8 @@ const Page: React.FC = () => {
             Work
           </Heading>
           <Paragraph>
-            I'm a sophomore at Hamilton College majoring in Computer Science and
-            Math.
-            {/* <NextLink href="/works/">
-              <Link>Project 1</Link>
-            </NextLink> */}
+            I &apos; m a sophomore at Hamilton College majoring in Computer
+            Science and Math.
           </Paragraph>
           <Box align="center" my={4}>
             <NextLink href="/works">
@@ -114,7 +110,6 @@ const Page: React.FC = () => {
           </Heading>
           <List>
             <ListItem>
-              {' '}
               <Link href="https://github.com/kitan23" target="_blank">
                 <Button
                   variant="ghost"
@@ -126,7 +121,6 @@ const Page: React.FC = () => {
               </Link>
             </ListItem>
             <ListItem>
-              {' '}
               <Link
                 href="https://www.linkedin.com/in/kien-tran-6615b3216/"
                 target="_blank"
@@ -141,7 +135,6 @@ const Page: React.FC = () => {
               </Link>
             </ListItem>
             <ListItem>
-              {' '}
               <Link href="https://www.instagram.com/kien_tr32/" target="_blank">
                 <Button
                   variant="ghost"
@@ -153,7 +146,6 @@ const Page: React.FC = () => {
               </Link>
             </ListItem>
             <ListItem>
-              {' '}
               <Link
                 href="https://www.facebook.com/profile.php?id=100006404467962"
                 target="_blank"
