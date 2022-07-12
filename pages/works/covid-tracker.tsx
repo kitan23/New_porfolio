@@ -45,8 +45,7 @@ const NetflixClone: React.FC = () => {
             <span>Web App</span>
           </ListItem>
           <ListItem>
-            <Meta color="green">Stack</Meta>
-            <span>ReactJS, Firebase</span>
+            <Meta color="green">Stack</Meta>j<span>ReactJS, Firebase</span>
           </ListItem>
         </List>
         <WorkImage src="/images/works/covid-tracker.png" alt="Covid Tracker" />
