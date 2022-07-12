@@ -26,7 +26,7 @@ const Page: React.FC = () => {
           bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
           p={3}
           mb={6}
-          align="center"
+          textAlign="center"
         >
           Hello, I&apos;m a full-stack developer based in New York
         </Box>
@@ -42,7 +42,7 @@ const Page: React.FC = () => {
             flexShrink={0}
             mt={{ base: 4, md: 0 }}
             ml={{ md: 6 }}
-            align="center"
+            textAlign="center"
           >
             <Image
               borderColor="whiteAlpha.800"
@@ -65,7 +65,7 @@ const Page: React.FC = () => {
             I&apos;m a sophomore at Hamilton College majoring in Computer
             Science and Math.
           </Paragraph>
-          <Box align="center" my={4}>
+          <Box textAlign="center" my={4}>
             <NextLink href="/works">
               <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
                 My Portfolio
