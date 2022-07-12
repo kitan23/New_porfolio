@@ -28,7 +28,7 @@ const Page: React.FC = () => {
           mb={6}
           align="center"
         >
-          Hello, I &apos; m a full-stack developer based in New York
+          Hello, I&apos;m a full-stack developer based in New York
         </Box>
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
@@ -62,7 +62,7 @@ const Page: React.FC = () => {
             Work
           </Heading>
           <Paragraph>
-            I &apos; m a sophomore at Hamilton College majoring in Computer
+            I&apos;m a sophomore at Hamilton College majoring in Computer
             Science and Math.
           </Paragraph>
           <Box align="center" my={4}>
