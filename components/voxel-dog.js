@@ -3,6 +3,7 @@ import * as THREE from 'three'
 import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
 import { loadGLTFModel } from '../libs/model'
 import { DogSpinner, DogContainer } from './voxel-dog-loader'
+import { GLTFLoader } from 'three/examples/jsm/loaders/GLTFLoader'
 
 function easeOutCirc(x) {
   return Math.sqrt(1 - Math.pow(x - 1, 4))

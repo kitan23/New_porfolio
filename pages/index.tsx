@@ -99,7 +99,7 @@ const Page: React.FC = () => {
             Started exploring blockchain and writing smart contracts
           </BioSection>
           <BioSection>
-            <BioYear>2021-2025</BioYear>
+            <BioYear>2021-2024</BioYear>
             Pursuing double degree in Computer Science and Math
           </BioSection>
         </Section>

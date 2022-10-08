@@ -5,39 +5,44 @@ import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 import React from 'react'
 
-const NetflixClone: React.FC = () => {
+const UberBlockchain: React.FC = () => {
   return (
     <Layout title="covid-tracker">
       <Container>
         <Title>
           {' '}
-          Covid Tracker <Badge>2021</Badge>
+          Uber Blockchain <Badge>2022</Badge>
         </Title>
         <P>
-          A web app that tracks the Covid-19 cases across the world created with
-          ReactJS and Firebase
+          Uber Blockchain is a web app that allows you to book and pay for your
+          ride using Ethereum.
         </P>
 
         <List>
           <ListItem>
-            <span>1. Show Live Cases, Recovered, and Deaths</span>
+            <span>1. Show responsive map and pin locations</span>
           </ListItem>
           <ListItem>
-            <span>2. Responsive Line Graph</span>
+            <span>
+              2. Allow conncetion to Metamask to carry out transactions
+            </span>
           </ListItem>
           <ListItem>
-            <span>3. Table of Statistics of each country</span>
-          </ListItem>
-          <ListItem>
-            <span>4. Clickable circle on map to show Country stats</span>
+            <span>
+              3. Calculate the cost in ETH using real-time conversion rate
+            </span>
           </ListItem>
         </List>
 
         <List ml={4} my={4}>
           <ListItem>
             <Meta color="green">Website</Meta>
-            <Link href="https://covid-tracker-43755.web.app/" target="_blank">
-              https://covid-tracker-43755.web.app/ <ExternalLinkIcon mx="2px" />
+            <Link
+              href="https://uber-clone-blockchain-rgr5jqtcu-kitan23.vercel.app/"
+              target="_blank"
+            >
+              https://uber-clone-blockchain-rgr5jqtcu-kitan23.vercel.app/
+              <ExternalLinkIcon mx="2px" />
             </Link>
           </ListItem>
           <ListItem>
@@ -46,13 +51,16 @@ const NetflixClone: React.FC = () => {
           </ListItem>
           <ListItem>
             <Meta color="green">Stack</Meta>
-            <span>ReactJS, Firebase</span>
+            <span>NextJS, Web3, Ethers, Sanity</span>
           </ListItem>
         </List>
-        <WorkImage src="/images/works/covid-tracker.png" alt="Covid Tracker" />
+        <WorkImage
+          src="/images/works/uber-blockchain.png"
+          alt="Covid Tracker"
+        />
       </Container>
     </Layout>
   )
 }
 
-export default NetflixClone
+export default UberBlockchain
