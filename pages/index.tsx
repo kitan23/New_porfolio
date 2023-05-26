@@ -33,7 +33,7 @@ const Page: React.FC = () => {
         <Box display={{ md: 'flex' }}>
           <Box flexGrow={1}>
             <Heading as="h2" variant="page-title">
-              Kien Tran
+              Kyle Tran
             </Heading>
             <p> Web, Blockchain, and Game Developer </p>
             <p>College Student </p>
@@ -62,8 +62,8 @@ const Page: React.FC = () => {
             Work
           </Heading>
           <Paragraph>
-            I&apos;m a sophomore at Hamilton College majoring in Computer
-            Science and Math.
+            I&apos;m a junior at Hamilton College majoring in Computer Science
+            and Math.
           </Paragraph>
           <Box textAlign="center" my={4}>
             <NextLink href="/works">
@@ -78,10 +78,10 @@ const Page: React.FC = () => {
           <Heading as="h3" variant="section-title">
             Bio
           </Heading>
-          <BioSection>
+          {/* <BioSection>
             <BioYear>2002</BioYear>
             Born in Hanoi, Vietnam
-          </BioSection>
+          </BioSection> */}
           <BioSection>
             <BioYear>2017</BioYear>
             Started programming with Python and C++
@@ -99,8 +99,12 @@ const Page: React.FC = () => {
             Started exploring blockchain and writing smart contracts
           </BioSection>
           <BioSection>
-            <BioYear>2021-2024</BioYear>
+            <BioYear>2021-2025</BioYear>
             Pursuing double degree in Computer Science and Math
+          </BioSection>
+          <BioSection>
+            <BioYear>2023</BioYear>
+            Doing research on Genetic Programming
           </BioSection>
         </Section>
 
