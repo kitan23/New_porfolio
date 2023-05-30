@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "1.0.0",
-  "description": "Kien's Portfolio",
+  "description": "Kyle's Portfolio",
   "main": "index.js",
   "scripts": {
     "dev": "next dev -H 0.0.0.0",

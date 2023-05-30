@@ -25,7 +25,7 @@ const Layout: React.FC<Props> = ({ children, title }) => (
     <>
       {title && (
         <Head>
-          <title>{title} - Kien Tran</title>
+          <title>{title} - Kyle Tran</title>
         </Head>
       )}
       {children}
