@@ -39,13 +39,19 @@ const Awards: React.FC = () => {
           <ListItem>
             <Meta color="purple">Computer Science</Meta>
             <span>
-              Computer Science for All, Design Principles, Data Structure and
-              Algorithm, Computer Organization
+              Computer Science for All, Design Principles, Principles of
+              Programming Language, Data Structure and Algorithm, Computer
+              Organization and Architecture (Assembly x86), Theory of
+              Computation, Algorithms, Dev Accesible User Interface, Operating
+              Systems, Artificial Intelligence
             </span>
           </ListItem>
           <ListItem>
             <Meta color="purple">Math</Meta>
-            <span>Multivariable, Linear Algebra</span>
+            <span>
+              Multivariable, Linear Algebra, Real Analysis, Modern Algebra,
+              Linear Optimization, Graph Theory
+            </span>
           </ListItem>
         </List>
       </Container>
