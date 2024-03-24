@@ -52,7 +52,7 @@ const Page: React.FC = () => {
               borderRadius="full"
               objectFit="cover"
               boxSize="150px"
-              src="/images/kien1.png"
+              src="/images/kien2.png"
               alt="Profile Image"
             />
           </Box>
