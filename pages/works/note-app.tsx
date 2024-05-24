@@ -4,7 +4,7 @@ import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
 
-const NetflixClone: React.FC = () => {
+const NoteApp: React.FC = () => {
   return (
     <Layout title="note-app">
       <Container>
@@ -14,7 +14,8 @@ const NetflixClone: React.FC = () => {
         </Title>
         <P>
           A Mern-stack note taking app created with MongoDB, Express, React,
-          Node.js
+          Node.js. The app allows users to create, read, update, and delete
+          notes as well as attaching urls.
         </P>
         <List ml={4} my={4}>
           <ListItem>
@@ -29,11 +30,20 @@ const NetflixClone: React.FC = () => {
           </ListItem>
           <ListItem>
             <Meta color="green">Platform</Meta>
-            <span>Web App</span>
+            <span>Web Application</span>
           </ListItem>
           <ListItem>
             <Meta color="green">Stack</Meta>
             <span>MongoDB, Express, ReactJS, Node</span>
+          </ListItem>
+          <ListItem>
+            <Meta color="green">Source code</Meta>
+            <Link
+              href="https://github.com/kitan23/Note-app-mern-stack"
+              target="_blank"
+            >
+              https://github.com/kitan23/Note-app-mern-stack
+            </Link>
           </ListItem>
         </List>
         <WorkImage src="/images/works/note-app.png" alt="Note app" />
@@ -43,4 +53,4 @@ const NetflixClone: React.FC = () => {
   )
 }
 
-export default NetflixClone
+export default NoteApp

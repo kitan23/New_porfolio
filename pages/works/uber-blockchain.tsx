@@ -47,11 +47,20 @@ const UberBlockchain: React.FC = () => {
           </ListItem>
           <ListItem>
             <Meta color="green">Platform</Meta>
-            <span>Web App</span>
+            <span>Web Application</span>
           </ListItem>
           <ListItem>
             <Meta color="green">Stack</Meta>
             <span>NextJS, Web3, Ethers, Sanity</span>
+          </ListItem>
+          <ListItem>
+            <Meta color="green">Source code</Meta>
+            <Link
+              href="https://github.com/kitan23/uber-blockchain"
+              target="_blank"
+            >
+              https://github.com/kitan23/uber-blockchain
+            </Link>
           </ListItem>
         </List>
         <WorkImage

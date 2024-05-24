@@ -27,32 +27,26 @@ interface WorkItemProps {
   title: string
   thumbnail: string | StaticImageData
 }
-export const WorkGridItem: React.FC<WorkItemProps> = ({
-  id,
-  title,
-  thumbnail,
-  children
-}) => (
-  <Box w="100%" textAlign="center">
-    <NextLink href={`/works/${id}`} scroll={false}>
-      <LinkBox cursor="pointer">
-        <Image
-          src={thumbnail}
-          alt={title}
-          className="grid-item-thumbnail"
-          placeholder="blur"
-          objectFit="contain"
-        />
-        <LinkOverlay href={`/works/${id}`}>
-          <Text mt={2} fontSize={20}>
-            {title}
-          </Text>
-        </LinkOverlay>
-        <Text fontSize={14}>{children}</Text>
-      </LinkBox>
+export const WorkGridItem = ({ id, title, thumbnail }: WorkItemProps) => {
+  return (
+    <NextLink href={`/works/${id}`}>
+      <Box w="100%" textAlign="center" cursor="pointer">
+        <Box position="relative" width="200px" height="200px" mx="auto" mb={4}>
+          <Image
+            src={thumbnail}
+            alt={title}
+            layout="fill"
+            objectFit="contain"
+            style={{ borderRadius: '8px' }}
+          />
+        </Box>
+        <Text mt={2} fontSize={20} fontWeight="bold">
+          {title}
+        </Text>
+      </Box>
     </NextLink>
-  </Box>
-)
+  )
+}
 
 export const GridItemStyle = () => (
   <Global
