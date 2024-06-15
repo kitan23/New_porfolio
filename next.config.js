@@ -1,5 +1,5 @@
 module.exports = {
   env: {
-    CONTACT_EMAIL: 'dkien3202@gmail.com'
+    CONTACT_EMAIL: 'kyletran3202@gmail.com'
   }
 }
