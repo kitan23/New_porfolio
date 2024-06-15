@@ -13,9 +13,23 @@ const NoteApp: React.FC = () => {
           Note taking app <Badge>2021</Badge>
         </Title>
         <P>
-          A Mern-stack note taking app created with MongoDB, Express, React,
-          Node.js. The app allows users to create, read, update, and delete
-          notes as well as attaching urls.
+          I developed a comprehensive full-stack note-taking application using
+          the MERN stack (MongoDB, Express.js, React.js, Node.js), designed to
+          enhance user productivity and learning management. The project
+          involved implementing a robust back-end server with Node.js and
+          Express, featuring secure RESTful APIs for creating, reading,
+          updating, and deleting notes, and supported by MongoDB for scalable
+          data storage. On the front-end, I created a dynamic and responsive
+          interface with React, incorporating React Hooks and Context API for
+          efficient state management, and integrated Material-UI for a sleek,
+          modern user experience. The application allows users to attach
+          documents and track their learning progress, featuring real-time note
+          editing, tagging, and categorization for streamlined information
+          retrieval. Additionally, I incorporated user authentication and
+          authorization using JSON Web Tokens (JWT) to ensure secure access and
+          data integrity. The application was deployed on cloud platforms,
+          implementing CI/CD pipelines for seamless updates and maintenance, and
+          ensured cross-device compatibility with responsive design techniques.
         </P>
         <List ml={4} my={4}>
           <ListItem>

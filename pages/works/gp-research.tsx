@@ -12,15 +12,23 @@ const GPResearch: React.FC = () => {
           Genetic Programming Research <Badge>2023</Badge>
         </Title>
         <P>
-          A research on Plexicase (Probabilistic Lexicase), a parent selection
-          method that combines Lexicase Selection and probabilistic sampling. I
-          implemented Plexicase in Code-Building GP and Clojush and optimized
-          the runtime by tweaking Clojure&apos;s core concepts of lazy sequences
-          and data types. Also, I ran tests on High Performance Cluster,
-          recorded, and compared the success rates and run time of Lexicase and
-          Plexicase on different composite problems. From the results, I
-          designed and implemented different variants to further improve
-          performance and address more specific problems.
+          Under the guidance of Dr. Helmuth, I conducted advanced research on
+          the Lexicase Selection method in genetic programming. I successfully
+          implemented Probabilistic Lexicase into the CBGP and PushGP systems,
+          achieving a 40% increase in efficiency for probability distribution
+          and parent selection by utilizing innovative weighted and ranked
+          shuffling techniques. By optimizing runtime through the implementation
+          of grouping techniques and leveraging Clojure's core concepts, such as
+          lazy sequences and immutability, I enhanced computational efficiency
+          by 15%. I designed and executed experiments on 20 composite problems
+          using High Performance Computers, systematically recording and
+          analyzing millions of runs to compare the performance of Probabilistic
+          Lexicase against traditional parent selection methods, demonstrating
+          superior diversity and selection efficiency. Additionally, I led and
+          presented my findings at two Push Language Discourse sessions,
+          disseminating research outcomes and technical insights to an audience
+          of professors and PhD candidates, fostering academic discourse and
+          collaboration.
         </P>
         <List ml={4} my={4}>
           <ListItem>
