@@ -18,7 +18,7 @@ const GPResearch: React.FC = () => {
           achieving a 40% increase in efficiency for probability distribution
           and parent selection by utilizing innovative weighted and ranked
           shuffling techniques. By optimizing runtime through the implementation
-          of grouping techniques and leveraging Clojure &apos; s core concepts,
+          of grouping techniques and leveraging Clojure&apos;s core concepts,
           such as lazy sequences and immutability, I enhanced computational
           efficiency by 15%. I designed and executed experiments on 20 composite
           problems using High Performance Computers, systematically recording
