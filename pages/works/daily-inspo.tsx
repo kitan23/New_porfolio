@@ -22,12 +22,12 @@ const DailyInspo: React.FC = () => {
         <P>
           Daily Inspo is a motivational app designed to inspire and uplift users
           through powerful quotes and sayings. Offering a curated selection of
-          thoughts from some of the world's most influential thinkers, Daily
-          Inspo provides personalized daily quotes to enhance every user's day.
-          With an intuitive swipe card interface, users can explore, save, and
-          share inspirational quotes seamlessly. The app focuses on user
-          experience with a clean, aesthetic interface that makes daily
-          interactions enjoyable and engaging.
+          thoughts from some of the world&apos;s most influential thinkers,
+          Daily Inspo provides personalized daily quotes to enhance every
+          user&apos;s day. With an intuitive swipe card interface, users can
+          explore, save, and share inspirational quotes seamlessly. The app
+          focuses on user experience with a clean, aesthetic interface that
+          makes daily interactions enjoyable and engaging.
         </P>
         <List ml={4} my={4}>
           <ListItem>
