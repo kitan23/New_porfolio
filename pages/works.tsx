@@ -9,6 +9,7 @@ import MarioGame from '../public/images/works/mario-logo.png'
 import UberLogo from '../public/images/works/uber-logo.png'
 import GPLogo from '../public/images/works/gp-logo.png'
 import GoogleDinosaurLogo from '../public/images/works/google-dinosaur-logo.png'
+import DailyInspoLogo from '../public/images/works/daily-inspo-logo.png'
 
 const Works = () => {
   return (
@@ -17,6 +18,13 @@ const Works = () => {
         Works
       </Heading>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <WorkGridItem
+            id="daily-inspo"
+            title="Daily Inspo"
+            thumbnail={DailyInspoLogo}
+          />
+        </Section>
         <Section>
           <WorkGridItem
             id="gp-research"

@@ -35,8 +35,7 @@ const Page: React.FC = () => {
             <Heading as="h2" variant="page-title">
               Kyle Tran
             </Heading>
-            <p> Web, Blockchain, and Game Developer </p>
-            <p>College Student </p>
+            <p> Web, Mobile, Blockchain, and Game Developer </p>
           </Box>
           <Box
             flexShrink={0}
@@ -62,7 +61,7 @@ const Page: React.FC = () => {
             Work
           </Heading>
           <Paragraph>
-            I&apos;m a junior at Hamilton College majoring in Computer Science
+            I&apos;m a senior at Hamilton College majoring in Computer Science
             and Math.
           </Paragraph>
           <Box textAlign="center" my={4}>
@@ -88,23 +87,23 @@ const Page: React.FC = () => {
           </BioSection>
           <BioSection>
             <BioYear>2020</BioYear>
-            Picked up web development
+            Started developing web applications
           </BioSection>
           <BioSection>
             <BioYear>2021</BioYear>
             Learned about game development using C# and Unity
           </BioSection>
           <BioSection>
-            <BioYear>2021</BioYear>
-            Started exploring blockchain and writing smart contracts
-          </BioSection>
-          <BioSection>
-            <BioYear>2021-2025</BioYear>
-            Pursuing double degree in Computer Science and Math
+            <BioYear>2022</BioYear>
+            Developed web3 and blockchain applications for a fintech startup
           </BioSection>
           <BioSection>
             <BioYear>2023</BioYear>
-            Doing research on Genetic Programming
+            Conducted research on Genetic Programming
+          </BioSection>
+          <BioSection>
+            <BioYear>2024</BioYear>
+            Learning about AI, Machine Learning, and Mobile Development
           </BioSection>
         </Section>
 
