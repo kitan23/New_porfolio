@@ -119,7 +119,7 @@ const Page: React.FC = () => {
                   colorScheme="teal"
                   leftIcon={<Icon as={IoLogoGithub} />}
                 >
-                  @kitan23
+                  kitan23
                 </Button>
               </Link>
             </ListItem>
