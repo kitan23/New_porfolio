@@ -80,10 +80,18 @@ const DailyInspo: React.FC = () => {
           />
           <WorkImage
             src="/images/works/daily-inspo-3.png"
-            alt="Daily Inspo Settings"
+            alt="Daily Inspo Quotes"
           />
           <WorkImage
             src="/images/works/daily-inspo-4.png"
+            alt="Daily Inspo Settings"
+          />
+          <WorkImage
+            src="/images/works/daily-inspo-5.png"
+            alt="Daily Inspo Settings"
+          />
+          <WorkImage
+            src="/images/works/daily-inspo-6.png"
             alt="Daily Inspo Settings"
           />
         </SimpleGrid>
