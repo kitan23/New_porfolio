@@ -58,7 +58,7 @@ const Page: React.FC = () => {
         </Box>
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
-            About Me
+            About Megi
           </Heading>
           <Paragraph>
             I&apos;m a builder — from Lego sets to apps, I love creating things that solve real problems. 
