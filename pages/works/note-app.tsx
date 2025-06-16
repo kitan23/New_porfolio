@@ -6,30 +6,28 @@ import Layout from '../../components/layouts/article'
 
 const NoteApp: React.FC = () => {
   return (
-    <Layout title="note-app">
+    <Layout title="Knowledge Vault">
       <Container>
         <Title>
-          {' '}
-          Note taking app <Badge>2021</Badge>
+          Knowledge Vault: Intelligent Learning Management System <Badge>2021</Badge>
         </Title>
         <P>
-          I developed a comprehensive full-stack note-taking application using
+          I developed a sophisticated knowledge management and learning platform using
           the MERN stack (MongoDB, Express.js, React.js, Node.js), designed to
-          enhance user productivity and learning management. The project
-          involved implementing a robust back-end server with Node.js and
-          Express, featuring secure RESTful APIs for creating, reading,
-          updating, and deleting notes, and supported by MongoDB for scalable
-          data storage. On the front-end, I created a dynamic and responsive
-          interface with React, incorporating React Hooks and Context API for
-          efficient state management, and integrated Material-UI for a sleek,
-          modern user experience. The application allows users to attach
-          documents and track their learning progress, featuring real-time note
-          editing, tagging, and categorization for streamlined information
-          retrieval. Additionally, I incorporated user authentication and
-          authorization using JSON Web Tokens (JWT) to ensure secure access and
-          data integrity. The application was deployed on cloud platforms,
-          implementing CI/CD pipelines for seamless updates and maintenance, and
-          ensured cross-device compatibility with responsive design techniques.
+          revolutionize how users organize, store, and access their learning materials.
+          The project features a robust back-end architecture with Node.js and
+          Express, implementing secure RESTful APIs for comprehensive knowledge
+          management operations, supported by MongoDB's scalable data storage.
+          The front-end delivers an intuitive and responsive interface built with React,
+          leveraging React Hooks and Context API for seamless state management,
+          and enhanced with Material-UI for a premium user experience. The platform
+          enables users to create rich knowledge repositories with document attachments,
+          progress tracking, and advanced organization features including real-time
+          editing, intelligent tagging, and hierarchical categorization for efficient
+          information retrieval. Security is paramount, with JWT-based authentication
+          and authorization ensuring data privacy and integrity. The application
+          is cloud-deployed with automated CI/CD pipelines for continuous improvement
+          and features responsive design for optimal cross-device accessibility.
         </P>
         <List ml={4} my={4}>
           <ListItem>

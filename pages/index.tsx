@@ -58,11 +58,13 @@ const Page: React.FC = () => {
         </Box>
         <Section delay={0.1}>
           <Heading as="h3" variant="section-title">
-            Work
+            About Me
           </Heading>
           <Paragraph>
-            I&apos;m a senior at Hamilton College majoring in Computer Science
-            and Math.
+            I&apos;m a builder — from Lego sets to apps, I love creating things that solve real problems. 
+            Recently launched Daily Inspo, an AI-powered iOS app that delivers personalized motivation using 
+            fine-tuned models. Riding the AI/ML wave to build tools that matter. Let&apos;s connect — I&apos;m 
+            always down to chat code, product, or how to get the perfect bánh mì in New York.
           </Paragraph>
           <Box textAlign="center" my={4}>
             <NextLink href="/works">
