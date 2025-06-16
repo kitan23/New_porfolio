@@ -11,6 +11,7 @@ import GPLogo from '../public/images/works/gp-logo.png'
 import GoogleDinosaurLogo from '../public/images/works/google-dinosaur-logo.png'
 import DailyInspoLogo from '../public/images/works/daily-inspo-logo.png'
 import RagOPTLogo from '../public/images/works/rag-opt-logo.png'
+import VBTLogo from '../public/images/works/vbt-logo.png'
 
 const Works = () => {
   return (
@@ -24,6 +25,13 @@ const Works = () => {
             id="opt-rag"
             title="OPT-RAG"
             thumbnail={RagOPTLogo}
+          />
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="vbt-system"
+            title="VBT Athletic Training System"
+            thumbnail={VBTLogo}
           />
         </Section>
         <Section>
