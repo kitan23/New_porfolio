@@ -1,6 +1,8 @@
 import NextLink from 'next/link'
-import { Box, Container, Heading } from '@chakra-ui/layout'
 import {
+  Box,
+  Container,
+  Heading,
   Button,
   Image,
   useColorModeValue,
