@@ -21,7 +21,7 @@ const GPResearch: React.FC = () => {
           enabling 10× larger hyper-parameter sweeps on our 64-core HPC cluster.
         </P>
         <P>
-          The project's scale was unprecedented, with 2.4 million evolutionary runs automated across 
+          The project&apos;s scale was unprecedented, with 2.4 million evolutionary runs automated across 
           20 composite problems using SLURM and Datomic logging. I developed comprehensive Jupyter 
           dashboards for real-time convergence analytics and selection-pressure heatmaps, providing 
           unprecedented insights into evolutionary dynamics. My work extended beyond implementation, 

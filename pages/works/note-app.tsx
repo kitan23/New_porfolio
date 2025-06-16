@@ -17,7 +17,7 @@ const NoteApp: React.FC = () => {
           revolutionize how users organize, store, and access their learning materials.
           The project features a robust back-end architecture with Node.js and
           Express, implementing secure RESTful APIs for comprehensive knowledge
-          management operations, supported by MongoDB's scalable data storage.
+          management operations, supported by MongoDB&apos;s scalable data storage.
           The front-end delivers an intuitive and responsive interface built with React,
           leveraging React Hooks and Context API for seamless state management,
           and enhanced with Material-UI for a premium user experience. The platform
