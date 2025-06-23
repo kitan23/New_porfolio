@@ -10,8 +10,12 @@ const Awards: React.FC = () => {
       <Heading as="h3" fontSize={20} mb={5}>
         Awards
       </Heading>
-
       <Container>
+        <AwardItem
+          name="Best Use of API - DevFest 2025 at Columbia University"
+          title="Team Lead & AI Engineer - DemystifyAI"
+          time="2025"
+        />
         <AwardItem
           name="1st Runner-Up Of Vietnam Round - Battle of Minds 2021"
           title="Chief Technology Officer"
