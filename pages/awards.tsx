@@ -8,13 +8,28 @@ const Awards: React.FC = () => {
   return (
     <Layout title="awards">
       <Heading as="h3" fontSize={20} mb={5}>
-        Awards
+        Awards & Recognition
       </Heading>
       <Container>
+        <AwardItem
+          name="Double Honors Degree in Computer Science and Mathematics"
+          title="Hamilton College"
+          time="2025"
+        />
         <AwardItem
           name="Best Use of API - DevFest 2025 at Columbia University"
           title="Team Lead & AI Engineer - DemystifyAI"
           time="2025"
+        />
+        <AwardItem
+          name="Selected Research Presenter - Plexicase Parent Selection in GP"
+          title="Hamilton College Research Symposium"
+          time="2024"
+        />
+        <AwardItem
+          name="Co-founder & President of App Development Club"
+          title="Recognized at Faculty Meeting & Commencement for Community Impact"
+          time="2022-2025"
         />
         <AwardItem
           name="1st Runner-Up Of Vietnam Round - Battle of Minds 2021"
@@ -22,14 +37,12 @@ const Awards: React.FC = () => {
           time="August 2021"
         />
         <AwardItem
-          name="Finalist in Business Challenge
-"
+          name="Finalist in Business Challenge"
           title="Web Developer and IT"
           time="April 2021"
         />
         <AwardItem
-          name="Finalist in 2020 ASEAN-wide Ending Plastic Pollution Innovation Challenge
-"
+          name="Finalist in 2020 ASEAN-wide Ending Plastic Pollution Innovation Challenge"
           title="Mobile App Developer"
           time="September 2020"
         />

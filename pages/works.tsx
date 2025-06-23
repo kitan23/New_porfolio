@@ -12,6 +12,7 @@ import GoogleDinosaurLogo from '../public/images/works/google-dinosaur-logo.png'
 import DailyInspoLogo from '../public/images/works/daily-inspo-logo.png'
 import RagOPTLogo from '../public/images/works/rag-opt-logo.png'
 import VBTLogo from '../public/images/works/vbt-logo.png'
+import BoxingLogo from '../public/images/works/boxing-predictor-logo.png'
 
 const Works = () => {
   return (
@@ -20,6 +21,13 @@ const Works = () => {
         Works
       </Heading>
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
+        <Section>
+          <WorkGridItem
+            id="boxing-predictor"
+            title="Boxing Match Predictor"
+            thumbnail={BoxingLogo}
+          />
+        </Section>
         <Section>
           <WorkGridItem
             id="opt-rag"
