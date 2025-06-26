@@ -13,6 +13,7 @@ import DailyInspoLogo from '../public/images/works/daily-inspo-logo.png'
 import RagOPTLogo from '../public/images/works/rag-opt-logo.png'
 import VBTLogo from '../public/images/works/vbt-logo.png'
 import BoxingLogo from '../public/images/works/boxing-predictor-logo.png'
+import EmotiveLogo from '../public/images/works/emotive-logo.png'
 
 const Works = () => {
   return (
@@ -23,9 +24,9 @@ const Works = () => {
       <SimpleGrid columns={[1, 1, 2]} gap={6}>
         <Section>
           <WorkGridItem
-            id="boxing-predictor"
-            title="Boxing Match Predictor"
-            thumbnail={BoxingLogo}
+            id="emotive"
+            title="Emotive"
+            thumbnail={EmotiveLogo}
           />
         </Section>
         <Section>
@@ -37,16 +38,23 @@ const Works = () => {
         </Section>
         <Section>
           <WorkGridItem
-            id="vbt-system"
-            title="VBT Athletic Training System"
-            thumbnail={VBTLogo}
+            id="daily-inspo"
+            title="Daily Inspo"
+            thumbnail={DailyInspoLogo}
           />
         </Section>
         <Section>
           <WorkGridItem
-            id="daily-inspo"
-            title="Daily Inspo"
-            thumbnail={DailyInspoLogo}
+            id="boxing-predictor"
+            title="Boxing Match Predictor"
+            thumbnail={BoxingLogo}
+          />
+        </Section>
+        <Section>
+          <WorkGridItem
+            id="vbt-system"
+            title="VBT Athletic Training System"
+            thumbnail={VBTLogo}
           />
         </Section>
         <Section>

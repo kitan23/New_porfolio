@@ -22,6 +22,12 @@ export const WorkImage = ({ src, alt }) => (
   <Image borderRadius="lg" w="full" src={src} alt={alt} mb={4} />
 )
 
+export const SectionTitle = ({ children }) => (
+  <Heading as="h3" variant="section-title" mb={4}>
+    {children}
+  </Heading>
+)
+
 export const Meta = ({ children, color }) => (
   <Badge colorScheme={color || 'green'} mr={2}>
     {children}

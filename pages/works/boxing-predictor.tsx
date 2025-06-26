@@ -11,7 +11,7 @@ const BoxingPredictor: React.FC = () => {
       <Container>
         <Title>
           Boxing Match Predictor: ML-Powered Fight Outcome Prediction{' '}
-          <Badge>2025</Badge>
+          <Badge>2024</Badge>
         </Title>
         <P>
           A sophisticated machine learning system designed to forecast boxing match 
