@@ -11,7 +11,7 @@ const Awards: React.FC = () => {
       <Container maxW="container.xl" py={8}>
         {/* Header Section */}
         <Box textAlign="center" mb={12}>
-          <Heading 
+          {/* <Heading 
             as="h1" 
             fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }} 
             fontWeight="bold"
@@ -20,7 +20,7 @@ const Awards: React.FC = () => {
             mb={4}
           >
             Awards & Recognition
-          </Heading>
+          </Heading> */}
           <Text 
             fontSize={{ base: "lg", md: "xl" }} 
             color={useColorModeValue('gray.600', 'gray.300')}
