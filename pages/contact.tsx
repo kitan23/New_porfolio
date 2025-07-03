@@ -88,7 +88,7 @@ const Contact: React.FC = () => {
             lineHeight="tall"
           >
             Have a project in mind? Want to collaborate? Or just want to say hello? 
-            I'd love to hear from you!
+            I&apos;d love to hear from you!
           </Text>
         </Box>
 
@@ -152,7 +152,7 @@ const Contact: React.FC = () => {
                         <FormLabel fontWeight="medium">Subject</FormLabel>
                         <Input
                           type="text"
-                          placeholder="What's this about?"
+                          placeholder="What&apos;s this about?"
                           id="subject"
                           bg={inputBg}
                           borderColor={borderColor}
@@ -277,7 +277,7 @@ const Contact: React.FC = () => {
                   linkedin.com/in/ktran23
                 </Text>
                 <Text fontSize="sm" color={useColorModeValue('gray.500', 'gray.400')} mt={2}>
-                  Let's connect professionally
+                  Let&apos;s connect professionally
                 </Text>
               </Box>
             </VStack>
