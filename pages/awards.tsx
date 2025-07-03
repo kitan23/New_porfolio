@@ -124,8 +124,8 @@ const Awards: React.FC = () => {
             borderLeftColor="teal.400"
           >
             <AwardItem
-              name="Co-founder & President of App Development Club"
-              title="Recognized at Faculty Meeting & Commencement for Community Impact"
+              name="Co-founder of App Development Club"
+              title="Recognized at Faculty Meeting for Community Impact"
               time="2022-2025"
             />
           </Box>
