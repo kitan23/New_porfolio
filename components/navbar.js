@@ -24,6 +24,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
   const activeTextColor = useColorModeValue('white', 'gray.800')
   const hoverBg = useColorModeValue('gray.100', 'whiteAlpha.100')
   const activeHoverBg = useColorModeValue('teal.600', 'teal.300')
+  const hoverTextColor = useColorModeValue('gray.800', 'white')
   
   return (
     <NextLink href={href} scroll={false} target={target} style={{ textDecoration: 'none' }}>
@@ -47,7 +48,7 @@ const LinkItem = ({ href, path, target, children, ...props }) => {
             shadow: 'md'
           } : { 
             bg: hoverBg,
-            color: useColorModeValue('gray.800', 'white'),
+            color: hoverTextColor,
             transform: 'translateY(-1px)',
             shadow: 'sm'
           }
