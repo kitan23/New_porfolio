@@ -29,21 +29,28 @@ interface WorkItemProps {
 }
 export const WorkGridItem = ({ id, title, thumbnail }: WorkItemProps) => {
   return (
-    <NextLink href={`/works/${id}`}>
-      <Box w="100%" textAlign="center" cursor="pointer">
-        <Box position="relative" width="200px" height="200px" mx="auto" mb={4}>
-          <Image
-            src={thumbnail}
-            alt={title}
-            layout="fill"
-            objectFit="contain"
-            style={{ borderRadius: '8px' }}
-          />
-        </Box>
-        <Text mt={2} fontSize={20} fontWeight="bold">
-          {title}
-        </Text>
+    <NextLink 
+      href={`/works/${id}`}
+      style={{
+        display: 'block',
+        width: '100%',
+        textAlign: 'center',
+        cursor: 'pointer',
+        textDecoration: 'none'
+      }}
+    >
+      <Box position="relative" width="200px" height="200px" mx="auto" mb={4}>
+        <Image
+          src={thumbnail}
+          alt={title}
+          layout="fill"
+          objectFit="contain"
+          style={{ borderRadius: '8px' }}
+        />
       </Box>
+      <Text mt={2} fontSize={20} fontWeight="bold">
+        {title}
+      </Text>
     </NextLink>
   )
 }

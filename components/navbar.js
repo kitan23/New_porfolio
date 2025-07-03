@@ -19,18 +19,47 @@ import ThemeToggleButton from './theme-toggle-button'
 
 const LinkItem = ({ href, path, target, children, ...props }) => {
   const active = path === href
-  const inactiveColor = useColorModeValue('gray200', 'whiteAlpha.900')
+  const inactiveColor = useColorModeValue('gray.600', 'whiteAlpha.900')
+  const activeBg = useColorModeValue('teal.500', 'teal.200')
+  const activeTextColor = useColorModeValue('white', 'gray.800')
+  const hoverBg = useColorModeValue('gray.100', 'whiteAlpha.100')
+  const activeHoverBg = useColorModeValue('teal.600', 'teal.300')
+  
   return (
-    <NextLink href={href} passHref scroll={false}>
-      <Link
-        p={2}
-        bg={active ? 'grassTeal' : undefined}
-        color={active ? '#202023' : inactiveColor}
-        target={target}
+    <NextLink href={href} scroll={false} target={target} style={{ textDecoration: 'none' }}>
+      <Box
+        as="span"
+        px={4}
+        py={2}
+        mx={1}
+        bg={active ? activeBg : 'transparent'}
+        color={active ? activeTextColor : inactiveColor}
+        borderRadius="lg"
+        fontWeight={active ? 'semibold' : 'medium'}
+        fontSize="sm"
+        transition="all 0.2s ease-in-out"
+        cursor="pointer"
+        position="relative"
+        _hover={active ? 
+          { 
+            bg: activeHoverBg,
+            transform: 'translateY(-1px)',
+            shadow: 'md'
+          } : { 
+            bg: hoverBg,
+            color: useColorModeValue('gray.800', 'white'),
+            transform: 'translateY(-1px)',
+            shadow: 'sm'
+          }
+        }
+        _active={{
+          transform: 'translateY(0px)',
+          shadow: 'none'
+        }}
         {...props}
       >
         {children}
-      </Link>
+      </Box>
     </NextLink>
   )
 }
@@ -69,6 +98,7 @@ const Navbar = props => {
           alignItems="center"
           flexGrow={1}
           mt={{ base: 4, md: 0 }}
+          spacing={1}
         >
           <LinkItem href="/works" path={path}>
             Works
@@ -103,24 +133,30 @@ const Navbar = props => {
                 aria-label="Options"
               />
               <MenuList>
-                <NextLink href="/" passHref>
-                  <MenuItem as={Link}>About</MenuItem>
-                </NextLink>
-                <NextLink href="/works" passHref>
-                  <MenuItem as={Link}>Works</MenuItem>
-                </NextLink>
-                <NextLink href="/contact" passHref>
-                  <MenuItem as={Link}>Contact</MenuItem>
-                </NextLink>
-                <NextLink href="/awards" passHref>
-                  <MenuItem as={Link}>Awards</MenuItem>
-                </NextLink>
-                <MenuItem
-                  as={Link}
-                  href="https://github.com/kitan23"
-                  target="_blank"
-                >
-                  Source
+                <MenuItem>
+                  <NextLink href="/" style={{ textDecoration: 'none', width: '100%' }}>
+                    About
+                  </NextLink>
+                </MenuItem>
+                <MenuItem>
+                  <NextLink href="/works" style={{ textDecoration: 'none', width: '100%' }}>
+                    Works
+                  </NextLink>
+                </MenuItem>
+                <MenuItem>
+                  <NextLink href="/contact" style={{ textDecoration: 'none', width: '100%' }}>
+                    Contact
+                  </NextLink>
+                </MenuItem>
+                <MenuItem>
+                  <NextLink href="/awards" style={{ textDecoration: 'none', width: '100%' }}>
+                    Awards
+                  </NextLink>
+                </MenuItem>
+                <MenuItem>
+                  <Link href="https://github.com/kitan23" target="_blank" style={{ textDecoration: 'none', width: '100%' }}>
+                    Source
+                  </Link>
                 </MenuItem>
               </MenuList>
             </Menu>
