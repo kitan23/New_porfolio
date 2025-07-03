@@ -38,7 +38,11 @@ const Page: React.FC = () => {
           shadow="sm"
         >
           <Box fontSize="lg" fontWeight="medium" color={useColorModeValue('gray.700', 'gray.200')}>
-            Hello, I&apos;m a ML engineer &nbsp; full-stack developer based in 
+            Hello, I&apos;m a{' '}
+            <Box as="span" color="teal.500" fontWeight="semibold">ML</Box>
+            <Box as="span" color={useColorModeValue('gray.600', 'gray.400')} fontWeight="normal"> / </Box>
+            <Box as="span" color="teal.500" fontWeight="semibold">Software Engineer</Box>
+            {' '}based in 
             <Box as="span" color="teal.500" fontWeight="semibold"> New York</Box>
           </Box>
         </Box>
